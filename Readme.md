@@ -114,8 +114,9 @@ text
 3. Nhấn nút **Play** (`Ctrl + P`) trong Editor để trải nghiệm.
 
 ---
-## VII. Video Gameplay   
-https://drive.google.com/file/d/1kX7z37Jy_aRx6B0YWi0pf-3ygwSEyGJz/view?usp=drive_link
+## VII. Video Gameplay & Build   
+Video: https://drive.google.com/file/d/1kX7z37Jy_aRx6B0YWi0pf-3ygwSEyGJz/view?usp=drive_link
+Build: https://drive.google.com/file/d/1GnF-1V9qwsh2nYHtunIqSXDwXdWribS1/view?usp=sharing
 
 
 ## 👤 VII. THÔNG TIN HỌC VIÊN NỘP BÀI
