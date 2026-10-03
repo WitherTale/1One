@@ -7,7 +7,7 @@
 
 ---
 
-## 📌 I. TỔNG QUAN DỰ ÁN
+##  I. TỔNG QUAN DỰ ÁN
 
 **Minecraft Dino Runner 2D** là tựa game chạy vô tận (Endless Runner) lấy cảm hứng từ trò chơi Chrome Dino kinh điển trên trình duyệt, kết hợp với phong cách đồ họa, âm thanh và thế giới khối vuông của **Minecraft**.
 
@@ -15,7 +15,7 @@ Người chơi sẽ điều khiển nhân vật **Steve** chạy liên tục qua
 
 ---
 
-## 🎮 II. HƯỚNG DẪN ĐIỀU KHIỂN (GAMEPLAY CONTROLS)
+##  II. HƯỚNG DẪN ĐIỀU KHIỂN (GAMEPLAY CONTROLS)
 
 | Thao tác | Phím thực hiện | Tác dụng |
 | :--- | :--- | :--- |
@@ -31,14 +31,14 @@ Game tự động chuyển đổi giữa **4 Biome Minecraft** cùng hiệu ứn
 
 | Giai đoạn | Mốc điểm | Biome Minecraft | Tốc độ trôi | Âm thanh BGM | Đặc điểm bẫy |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| **1** | `0 – 1499` | 🟢 **Overworld** | `6.0 – 8.5` | Theme Xanh lá | Xương rồng đơn/đôi, bẫy bay thưa |
-| **2** | `1500 – 2999` | 🔴 **Nether** | `8.5 – 10.5` | Theme Đỏ địa ngục | Hố sập, bẫy bay xuất hiện dày hơn |
-| **3** | `3000 – 4499` | 🔵 **Sculk / Deep Dark** | `10.5 – 12.5` | Theme Xanh đen | Bẫy liên hoàn, tốc độ nhanh |
-| **4** | `4500+` | 🟣 **The End** | `12.5 – 14.0` *(Max)* | Theme Tím | Tốc độ tối đa, tần suất spawn dồn dập |
+| **1** | `0 – 1499` |  **Overworld** | `6.0 – 8.5` | Theme Xanh lá | Xương rồng đơn/đôi, bẫy bay thưa |
+| **2** | `1500 – 2999` |  **Nether** | `8.5 – 10.5` | Theme Đỏ địa ngục | Hố sập, bẫy bay xuất hiện dày hơn |
+| **3** | `3000 – 4499` |  **Sculk / Deep Dark** | `10.5 – 12.5` | Theme Xanh đen | Bẫy liên hoàn, tốc độ nhanh |
+| **4** | `4500+` |  **The End** | `12.5 – 14.0` *(Max)* | Theme Tím | Tốc độ tối đa, tần suất spawn dồn dập |
 
 ---
 
-## ✨ IV. TÍNH NĂNG NỔI BẬT (KEY FEATURES)
+## IV. TÍNH NĂNG NỔI BẬT (KEY FEATURES)
 
 ### 1. Gameplay & Vật lý Player (Steve)
 - **Grounded Check chính xác:** Dùng `Physics2D.OverlapBox` kiểm tra chân chạm đất, không bị nhảy đúp vô lý.
@@ -69,7 +69,7 @@ Game tự động chuyển đổi giữa **4 Biome Minecraft** cùng hiệu ứn
 
 ---
 
-## 🏗️ V. KIẾN TRÚC CODE & CẤU TRÚC DỰ ÁN
+##  V. KIẾN TRÚC CODE & CẤU TRÚC DỰ ÁN
 Assets/
 ├── Scripts/
 │ ├── Managers/
@@ -101,11 +101,11 @@ text
 
 ---
 
-## 🚀 VI. HƯỚNG DẪN CHẠY GAME (HOW TO RUN)
+## VI. HƯỚNG DẪN CHẠY GAME
 
 ### Cách 1: Chạy file Build (.exe)
 1. Mở thư mục `Build/`.
-2. Chạy file `MinecraftDinoRunner.exe`.
+2. Chạy file `Assighmen.exe`.
 3. Chơi game ở độ phân giải 16:9 (Recommeded: 1920×1080).
 
 ### Cách 2: Chạy trong Unity Editor
@@ -114,25 +114,11 @@ text
 3. Nhấn nút **Play** (`Ctrl + P`) trong Editor để trải nghiệm.
 
 ---
+## VII. Video Gameplay   
+https://drive.google.com/file/d/1kX7z37Jy_aRx6B0YWi0pf-3ygwSEyGJz/view?usp=drive_link
 
-## 📊 VII. ĐÁNH GIÁ THEO TIÊU CHÍ RUBRIC
 
-| Tiêu chí Rubric | Điểm tối đa | Đạt được | Ghi chú |
-| :--- | :---: | :---: | :--- |
-| **Game chạy ổn định, không lỗi** | 2.0 | **2.0** | 0 lỗi Console, chạy 60 FPS mượt mà. |
-| **Player nhảy & cúi đúng** | 1.5 | **1.5** | OverlapBox ground check, Crouch thu nhỏ BoxCollider2D chuẩn. |
-| **Chướng ngại vật & Spawn** | 1.5 | **1.5** | Bẫy đất, hố sập, chim bay 3 tầm cao spawn gia tốc. |
-| **Hệ thống điểm + High score** | 1.0 | **1.0** | Định dạng D8, lưu PlayerPrefs.Save(), SFX Milestone mỗi 100pt. |
-| **UI đầy đủ (Menu, GameOver)** | 1.0 | **1.0** | Main Menu, HUD, GameOver Panel hiển thị Biome vừa chết. |
-| **Tăng độ khó theo thời gian** | 1.0 | **1.0** | Tốc độ tăng 6->14f, spawn dồn dập, tự đổi 4 Biome. |
-| **Âm thanh (Audio)** | 0.5 | **0.5** | BGM đổi theo Map + SFX Nhảy, Chết (Oof), Click, Milestone. |
-| **Code sạch, có comment** | 1.0 | **1.0** | Kiến trúc Singleton, State Machine, comment tiếng Việt chi tiết. |
-| **Sáng tạo thêm (Điểm cộng)** | 0.5 | **0.5** | Theme Minecraft 2D, Lerp màu trời, Fake Freeze che UI. |
-| **TỔNG ĐIỂM** | **10.0** | **10 / 10** | **Hoàn thành trọn vẹn 100%** |
-
----
-
-## 👤 VIII. THÔNG TIN HỌC VIÊN NỘP BÀI
+## 👤 VII. THÔNG TIN HỌC VIÊN NỘP BÀI
 
 - NGUYỄN ANH TUẤN
 - 114010125011 
